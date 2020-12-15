@@ -70,3 +70,45 @@ function alignl(style){
 document.getElementById("lineOne").style.textAlign = style; 
 }
 
+// $(document).ready(function(){
+//   $("#myInput").on("keyup", function() {
+//     var value = $(this).val().toLowerCase();
+//     $("#myTable tr").filter(function() {
+//       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+//     });
+//   });
+// });
+
+// $("#box").on('keyup', function(){
+//   var matcher = new RegExp($(this).val(), 'gi');
+//   $('.connect-cat').show().not(function(){
+//       return matcher.test($(this).find('.name, .category').text())
+//   }).hide();
+// });
+
+
+// $('#box').keyup(function(){
+//    var valThis = $(this).val().toLowerCase();
+//     if(valThis === ""){
+//         $('div.connect-cat').show();
+//     } else {
+//         $('div.connect-cat').each(function(){
+//             var text = $(this).find('span').text().toLowerCase();
+//             if (text.indexOf(valThis) >= 0) { $(this).show(); }
+//             else { $(this).hide(); }
+//         });
+//    }
+// });
+
+
+// $('#box').keyup(function(){
+//     var valThis = $(this).val().toLowerCase();
+//         if(valThis == ""){
+//             $('.connect-cat').show();
+//         } else {
+//             $('.connect-cat').each(function(){
+//             var text = $(this).find("span").text().toLowerCase();
+//             (text.indexOf(valThis) >= 0) ? $(this).show() : $(this).hide();
+//         });
+//     };
+// });
